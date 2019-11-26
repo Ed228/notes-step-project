@@ -1,0 +1,25 @@
+.textarea-note {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.25em;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+}
+.textarea-redact-note {
+    border: 1px solid #ffffff;
+}
+.date-redact {
+    padding: 0.5em;
+}
+.card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 33%;
+}
+
+@media screen and (max-width: 768px){
+    .card {
+        width: 100%;
+    }
+}
